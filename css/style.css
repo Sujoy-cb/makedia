@@ -1,0 +1,1003 @@
+/* ==========================
+        common css start
+============================ */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+a,a:hover,a:focus{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.buttons{
+    margin-top: 30px;
+}
+.buttons a{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background: #fb414e;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 1px solid #fb414e;
+    padding: 10px 30px;
+    margin: 0 15px;
+    transition: .4s;
+}
+.buttons a:nth-child(2){
+    background: transparent;
+    color: #fff;
+}
+.buttons a:hover{
+    background: transparent;
+    color: #fff;
+}
+.buttons a:hover:nth-child(2){
+    background: #fb414e;
+    color: #fff;
+}
+.title h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #fb414e;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* ==========================
+        common css end
+============================ */
+
+
+
+/* ==========================
+    preloader css start
+============================ */
+#preloader{
+    background: #fb414e;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+#preloader .circle{
+    width: 100px;
+    height: 100px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: loader 2s linear infinite;
+}
+@keyframes loader{
+    to{
+        transform: rotate(360deg);
+    }
+}
+/* ==========================
+    preloader css end
+============================ */
+
+/* ==========================
+        nav part css start
+============================ */
+nav{
+    position: fixed !important;
+    top: 8px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.fixed{
+    background: #fff;
+    border-bottom: 1px solid #fb414e;
+    top: 0;
+    padding: 0;
+}
+nav .back{
+    background: #fff;
+    border-radius: 10px;
+}
+nav .logo{
+    padding-top: 0 !important;
+}
+nav .logo img{
+    width: 100%;
+}
+nav ul li{
+    margin-left: 40px;
+}
+nav ul li a.active{
+    color: #fb414e;
+}
+nav ul li a{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #444444;
+    font-weight: 700;
+    transition: .4s !important;
+}
+nav ul li a:hover{
+    color: #fb414e;
+}
+/* ==========================
+        nav part css end
+============================ */
+
+
+/* ==========================
+    banner part css start
+============================ */
+#banner-part .banner{
+    background: url(../images/banner-bg1.png) no-repeat center;
+    background-size: cover;
+}
+#banner-part .bg2{
+    background: url(../images/banner-bg2.png) no-repeat center;
+    background-size: cover;
+}
+#banner-part .bg3{
+    background: url(../images/banner-bg3.png) no-repeat center;
+    background-size: cover;
+}
+#banner-part .banner .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0,.6);
+    text-align: center;
+    padding: 120px 0 100px 0;
+    position: relative;
+}
+#banner-part .banner .overlay h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+#banner-part .banner .overlay p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    width: 655px;
+    margin: auto;
+    margin-top: 60px;
+}
+#banner-part .prv{
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    color: #fb414e;
+    font-size: 40px;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+#banner-part .nxt{
+    position: absolute;
+    top: 50%;
+    right: 80px;
+    color: #fb414e;
+    font-size: 40px;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+/* ==========================
+    banner part css end
+============================ */
+
+
+
+/* ==========================
+    service part css start
+============================ */
+#service-part{
+    background: #fff;
+    padding-bottom: 100px;
+}
+#service-part .top .item{
+    background: #202b30;
+    transform: translateY(-20%);
+    transition: .4s;
+}
+#service-part .top .item .icon{
+    text-align: center;
+    padding: 30px 0;
+}
+#service-part .top .item .text{
+    padding: 40px;
+}
+#service-part .top .item .text h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+}
+#service-part .top .item .text h4:before{
+    content: '';
+    position: absolute;
+    bottom: -90%;
+    left: 0;
+    width: 30%;
+    height: 2px;
+    background: #fff;
+}
+#service-part .top .item .text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 40px;
+    width: 305px;
+}
+#service-part .top .item:hover{
+    background: #fb414e;
+}
+#service-part .bottom .title{
+    text-align: center;
+}
+#service-part .bottom .title h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #222222;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#service-part .bottom .title h2 span{
+    color: #fb414e;
+}
+#service-part .bottom .service-item{
+    margin-top: 30px;
+    display: flex;
+    transition: .4s;
+}
+#service-part .bottom .service-item .icon{
+    width: 15%;
+    margin-top: 45px;
+}
+#service-part .bottom .service-item .icon span{
+    background: #202b30;
+    border: 1px solid #202b30;
+    border-radius: 50%;
+    padding: 22px 18px;
+    transition: .4s;
+}
+#service-part .bottom .service-item .icon span svg{
+    color: #fff;
+    vertical-align: middle;
+}
+#service-part .bottom .service-item .text{
+    width: 80%;
+    margin-left: 30px;
+}
+#service-part .bottom .service-item .text h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #202b30;
+    font-weight: 500;
+}
+#service-part .bottom .service-item .text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+    width: 295px;
+    margin-top: 10px;
+}
+#service-part .bottom .service-item:hover .icon span{
+    background: #fb414e;
+    border: 1px solid #fb414e;
+}
+/* ==========================
+    service part css end
+=========================== */
+
+
+/* ==========================
+    about part css start
+=========================== */
+#about-part{
+    background: #f2f5ff;
+    padding: 100px 0;
+    text-align: left;
+}
+
+#about-part .img img{
+    width: 100%;
+}
+#about-part .text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 30px;
+    width: 562px;
+}
+#about-part .text a:hover{
+    color: #222222;
+}
+/* ==========================
+    about part css end
+=========================== */
+
+
+
+/* ==========================
+    slider part css start
+=========================== */
+#slider-part{
+    background: #202b30;
+    position: relative;
+    padding: 100px 0;
+}
+#slider-part .ball{
+    position: absolute;
+    top: 0;
+    left: 20%;
+    background: #fb414e;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: bounce 2s infinite;
+    animation-direction: alternate;
+}
+#slider-part .ball:nth-child(2){
+    top: 0;
+    left: 40%;
+    animation: bounce  2s infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes bounce{
+    10%{
+        top: 95%;
+    }
+    100%{
+        top: 0;
+    }
+}
+
+#slider-part:before{
+    content: "";
+    position: absolute;
+    bottom: 4%;
+    right: 24%;
+    width: 100px;
+    height: 100px;
+    background: #fb414e;
+    transform: translate(-50%,-50%);
+}
+#slider-part:after{
+    content: "";
+    position: absolute;
+    top: 21%;
+    left: 52%;
+    width: 100px;
+    height: 100px;
+    background: #fb414e;
+    transform: translate(-50%,-50%);
+}
+#slider-part .main{
+    display: flex;
+    justify-content: space-between;
+}
+#slider-part .text-slider{
+    width: 48%;
+}
+#slider-part .text-slider .text{
+    text-align: center;
+    outline: 0;
+    margin-top: 95px;
+}
+#slider-part .text-slider .text h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#slider-part .text-slider .text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 26px;
+    width: 485px;
+    margin: auto;
+    margin-top: 30px;
+}
+#slider-part .img-slider{
+    width: 24%;
+    z-index: 1;
+}
+#slider-part .img-slider .img{
+    outline: 0;
+}
+
+#slider-part .img-slider .img img{
+    width: 100%;
+}
+#slider-part .details-slider{
+    width: 24%;
+}
+#slider-part .details-slider .details{
+    background: #fb414e;
+    padding: 30px 20px;
+    margin-top: 90px;
+    outline: 0;
+}
+#slider-part .details-slider .third{
+    padding-bottom: 9px;
+}
+#slider-part .details-slider .details h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    vertical-align: middle;
+}
+#slider-part .details-slider .details p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 20px;
+}
+/* ==========================
+    slider part css end
+=========================== */
+
+
+
+/* ==========================
+    work part css start
+=========================== */
+#work-part{
+    background: #ffffff;
+    border-bottom: 1px solid #e9e9e9;
+    padding: 100px 0;
+}
+#work-part .title{
+    text-align: center;
+}
+#work-part .title h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #222222;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+#work-part .title span{
+    color: #fb414e;
+}
+#work-part .mix-itup-button ul{
+    display: flex;
+    justify-content: center;
+}
+#work-part .mix-itup-button ul li{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #444444;
+    font-weight: 600;
+    margin: 0 10px;
+    cursor: pointer;
+}
+#work-part .mix-itup-button ul .mixitup-control-active{
+    background: #fb414e;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+#work-part .mixit-img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+#work-part .mixit-img .mix-item{
+    width: 24%;
+    margin-top: 15px;
+}
+#work-part .mixit-img .mix-item .img{
+    position: relative;
+}
+#work-part .mixit-img .mix-item .img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: .4s;
+}
+#work-part .mixit-img .mix-item .img .overlay h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #f2f5ff;
+    text-align: center;
+}
+#work-part .mixit-img .mix-item .img img{
+    width: 100%;
+}
+#work-part .mixit-img .mix-item:hover .img .overlay{
+    transform: scale(1);
+}
+/* ==========================
+    work part css end
+=========================== */
+
+
+
+/* ==========================
+    expert part css start
+=========================== */
+#expert-part{
+    background: #fff;
+    padding: 100px 0;
+}
+#expert-part .title{
+    text-align: center;
+}
+#expert-part .item{
+    margin-top: 60px;
+}
+#expert-part .item .img{
+    position: relative;
+}
+#expert-part .item .img img{
+    width: 100%;
+}
+#expert-part .item .img .details{
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+    background: #fb414e;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: .4s;
+}
+#expert-part .item .img .details h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #f1f1f1;
+    font-weight: 500;
+}
+#expert-part .item .img .details p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #f1f1f1;
+    font-weight: 400;
+}
+#expert-part .item .img .icons{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    padding: 15px;
+    background: #202b30;
+    opacity: 0;
+    transition: .4s;
+}
+#expert-part .item .img .icons a{
+    display: block;
+    margin-top: 15px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 8px;
+    text-align: center;
+    transition: .4s;
+}
+#expert-part .item:hover .img .details{
+    opacity: 1;
+    bottom: -11%;
+}
+#expert-part .item:hover .img .icons{
+    opacity: 1;
+    right: -10%;
+}
+#expert-part .item .img .icons a:hover{
+    color: #fff;
+    background: #fb414e;
+    border: 1px solid #fb414e;
+}
+/* ==========================
+    expert part css end
+=========================== */
+
+
+/* ==========================
+    contact-part css start
+=========================== */
+#contact-part{
+    background: #202b30;
+    position: relative;
+    padding: 100px 0;
+}
+#contact-part .plane{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    color: #fb414e;
+    font-size: 40px;
+    animation: animate 3s linear infinite;
+}
+@keyframes animate{
+    0%{
+        right: 100%;
+    }
+    100%{
+        right: 0%;
+    }
+}
+#contact-part .plane-bottom{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    color: #fb414e;
+    font-size: 40px;
+    transform: rotate(180deg);
+    animation: fly 3s linear infinite;
+}
+@keyframes fly{
+    0%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+#contact-part .title{
+    text-align: center;
+}
+#contact-part .title h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+#contact-part .title h2 span{
+    color: #fb414e;
+}
+#contact-part form{
+    text-align: center;
+}
+#contact-part form input{
+    width: 60%;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid #fb414e;
+    border-radius: 5px;
+    outline: 0;
+    padding: 8px;
+    margin-top: 40px;
+}
+#contact-part form select{
+    width: 30%;
+    margin-top: 40px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid #fb414e;
+    border-radius: 5px;
+    outline: 0;
+    padding: 8px;
+}
+#contact-part form select option{
+    background:#fb414e;
+}
+#contact-part form button{
+    width: 27%;
+    padding: 10px 15px;
+    margin-left: 25px;
+    border: 1px solid #fb414e;
+    border-radius: 5px;
+    background: #fb414e;
+    outline: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+/* ==========================
+    contact-part css end
+=========================== */
+
+
+
+/* ==========================
+    video part css start
+=========================== */
+#video-part{
+    background: #fff;
+    padding: 100px 0;
+}
+#video-part .title{
+    text-align: center;
+}
+#video-part .title h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #fb414e;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+#video-part .title h2 span{
+    color: #222222;
+}
+#video-part .text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: right;
+    width: 474px;
+    margin: auto;
+}
+#video-part .text p:nth-child(2){
+    margin: 30px 36px;
+}
+#video-part .img{
+    position: relative;
+}
+#video-part .img img{
+    width: 100%;
+}
+#video-part .img a{
+    display: inline-block;
+    font-size: 50px;
+    color: #fb414e;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: .4s;
+}
+#video-part .img a:hover{
+    color: #fff;
+}
+/* ==========================
+    video part css end
+=========================== */
+
+
+
+/* ==========================
+    counter part css start
+=========================== */
+#counter-part{
+    background: url(../images/counter-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+#counter-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 100px 0;
+}
+#counter-part .overlay .count-box{
+    text-align: center;
+}
+#counter-part .overlay .count-box .count-num{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 30px;
+}
+#counter-part .overlay .count-box h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+}
+#counter-part .overlay .count-box h3:before{
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 64px;
+    width: 50%;
+    height: 3px;
+    background: #fb414e;
+    transition: .4s;
+}
+#counter-part .overlay .count-box:hover h3:before{
+    width: 30%;
+}
+
+/* ==========================
+    counter part css end
+=========================== */
+
+
+/* =============================
+    footer slider part css start
+=============================== */
+#footer-slider{
+    background: #fff;
+    padding: 100px 0;
+}
+#footer-slider .slider .img{
+    border: 1px solid #777777;
+    padding: 30px 5px;
+    margin:0 5px;
+    outline: 0;
+}
+#footer-slider .slider .kom{
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+#footer-slider .slider .img img{
+    margin: 0 auto;
+}
+#footer-slider .slider .slick-center{
+    box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.75);
+}
+/* =============================
+    footer slider part css end
+=============================== */
+
+
+
+/* =============================
+    footer part css start
+=============================== */
+#footer-part{
+    background: #202b30;
+    padding: 80px 0;
+}
+#footer-part .footer-item .title h3{
+    margin-top: 65px;
+    margin-left: 30px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+#footer-part .footer-item p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 26px;
+    width: 337px;
+    margin-top: 30px;
+}
+#footer-part .footer-item ul{
+    margin-top: 40px;
+}
+#footer-part .footer-item ul li{
+    margin-top: 5px;
+}
+#footer-part .footer-item ul li a{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    transition: .4s;
+}
+#footer-part .footer-item ul li a:hover{
+    color: #fb414e;
+}
+#footer-part .footer-item .box{
+    position: relative;
+}
+#footer-part .footer-item .box .title h3{
+    margin-left: 0;
+}
+#footer-part .footer-item .box h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+#footer-part .footer-item .box input{
+    width: 95%;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-top: 15px;
+    outline: 0;
+}
+#footer-part .footer-item .box button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #fb414e;
+    padding: 6px 30px;
+    border: 0;
+    outline: 0;
+    position: absolute;
+    top: 73%;
+    right: 5%;
+}
+#footer-part .footer-item .icons{
+    margin-top: 40px;
+}
+#footer-part .footer-item .icons a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    color: #fb414e;
+    border: 1px solid #fb414e;
+    border-radius: 50%;
+    margin: 0 10px;
+    vertical-align: middle;
+    transition: .4s;
+}
+#footer-part .footer-item .icons a:hover{
+    background: #fb414e;
+    border: 1px solid #fb414e;
+    border-radius: 0;
+    color: #fff;
+}
+/* =============================
+    footer part css end
+=============================== */
+.top-button{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    font-size: 50px;
+    color: #fb414e;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* =============================
+    copy right part css start
+=============================== */
+#copy-part{
+    background: #202b30;
+    padding: 10px 0;
+    filter: drop-shadow(0px 4px 5px  rgb(251, 65, 78,0.9));
+}
+#copy-part p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+#copy-part p span{
+    color: #fb414e;
+    margin: 0 5px;
+}
+
+/* =============================
+    copy right part css end
+=============================== */
+
+
+

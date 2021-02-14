@@ -1,0 +1,997 @@
+@media (min-width:320px) and (max-width:575px){
+
+
+    .buttons a{
+        font-size: 16px;
+        padding: 7px 16px;
+        margin: 0 5px;
+    }
+
+    /* -------nav part start------- */
+
+    nav{
+        top: -8px;
+    }
+    nav .back{
+        border-radius: 0;
+    }
+    nav .logo img{
+        width: 65%;
+    }
+    nav button svg{
+        color: #fb414e;
+        outline: 0;
+    }
+    .navbar-toggler:focus{
+        box-shadow: 0 0 0rem;
+    }
+    nav ul li{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    /* -------nav part end------- */
+
+
+
+    /* -------banner part start------- */
+    #banner-part .banner .overlay h2{
+        font-size: 24px;
+        margin-top: 0;
+    }
+    #banner-part .banner .overlay p{
+        font-size: 14px;
+        width: 100%;
+    }
+    #banner-part .nxt{
+        font-size: 35px;
+        top: 45%;
+        right: 30px;
+    }
+    #banner-part .prv{
+        font-size: 35px;
+        top: 45%;
+        left: 50px;
+    }
+    
+    /* -------banner part end------- */
+
+
+
+    /* -------service part start------- */
+    #service-part{
+        padding-bottom: 80px;
+    }
+    #service-part .top .item{
+        margin-left: 30px;
+        width: 80%;
+        margin-top: 35px;
+    }
+    #service-part .top .item .icon{
+        padding: 20px 0;
+    }
+    #service-part .top .item .text{
+        padding: 20px;
+    }
+    #service-part .top .item .text h4{
+        font-size: 15px;
+    }
+    #service-part .top .item .text p{
+        font-size: 14px;
+        width: 100%;
+    }
+    #service-part .bottom .title h2{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    #service-part .bottom .service-item .icon{
+        margin-top: 50px;
+    }
+    #service-part .bottom .service-item .text{
+        margin-left: 30px;
+    }
+    #service-part .bottom .service-item .text h4{
+        font-size: 18px;
+    }
+    #service-part .bottom .service-item .text p{
+        font-size: 14px;
+        width: 100%;
+    }
+    /* -------service part end------- */
+
+
+
+    /* -------about part start------- */
+    #about-part .title h3{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    #about-part .text p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-left: 12px;
+        width: 95%;
+    }
+    #about-part .text .buttons{
+        margin-left: 20px;
+    }
+    /* -------about part end------- */
+
+
+
+    /* -------slider part start------- */
+    #slider-part{
+        padding: 70px 0;
+    }
+    #slider-part::after{
+        top: 39%;
+        left: 19%;
+        width: 80px;
+        height: 80px;
+    }
+    #slider-part::before{
+        bottom: 24%;
+        right: -5%;
+        width: 80px;
+        height: 80px;
+    }
+    #slider-part .ball{
+        display: none;
+    }
+    #slider-part .main{
+        display: initial;
+    }
+    #slider-part .text-slider{
+        width: 100%;
+    }
+    #slider-part .text-slider .text h3{
+        font-size: 20px;
+    }
+    #slider-part .text-slider .text p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    #slider-part .img-slider{
+        width: 80%;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    #slider-part .img-slider .img img{
+        width: 100%;
+    }
+    #slider-part .details-slider{
+        width: 100%;
+    }
+    #slider-part .details-slider .details{
+        padding: 20px;
+    }
+    /* -------slider part end------- */
+
+    /* -------work part start------- */
+    #work-part .title h2{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    #work-part .mix-itup-button{
+        margin-top: -25px;
+    }
+    #work-part .mix-itup-button ul{
+        display: initial;
+        text-align: center;
+    }
+    #work-part .mix-itup-button ul li{
+        font-size: 16px;
+        margin-top: 6px;
+    }
+    #work-part .mix-itup-button ul .mixitup-control-active{
+        width: 40%;
+        margin-left: 85px;
+    }
+    #work-part .mixit-img .mix-item{
+        width: 48%;
+    }
+    #work-part .mixit-img .mix-item .img .overlay h4{
+        font-size: 22px;
+    }
+    /* -------work part end------- */
+
+    /* -------expert part start------- */
+    #expert-part{
+        padding: 60px 0;
+    }
+    #expert-part .item .img{
+        width: 90%;
+        margin-left: 15px;
+    }
+    #expert-part .item .img img{
+        width: 100%;
+    }
+    #expert-part .item .img .details{
+        left: 7%;
+        width: 85%;
+        padding: 7px;
+    }
+    #expert-part .item .img .details h3{
+        font-size: 18px;
+    }
+    #expert-part .item .img .details p{
+        font-size: 14px;
+    }
+    #expert-part .item .img .icons{
+        padding: 10px;
+    }
+    #expert-part .item .img .icons a{
+        padding: 5px;
+    }
+    #expert-part .item:hover .img .icons{
+        right: -8%;
+    }
+    /* -------expert part end------- */
+
+
+    /* -------contact-part start------- */
+    #contact-part{
+        padding: 70px 0;
+    }
+    #contact-part .title h2{
+        font-size: 28px;
+        margin-top: 5px;
+    }
+    #contact-part .plane{
+        display: none;
+    }
+    #contact-part .plane-bottom{
+        display: none;
+    }
+    #contact-part form input{
+        width: 90%;
+        font-size: 14px;
+        padding: 5px;
+        margin-top: 20px;
+    }
+    #contact-part form select{
+        width: 90%;
+        margin-top: 25px;
+    }
+    #contact-part form select option{
+        font-size: 14px;
+    }
+    #contact-part form button{
+        width: 40%;
+        font-size: 16px;
+        padding: 6px 15px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    /* -------contact-part end------- */
+
+
+    /* -------video part start------- */
+    #video-part{
+        padding: 70px 0;
+    }
+    #video-part .title h2{
+        font-size: 32px;
+        margin-top: 15px;
+    }
+    #video-part .text p{
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        width: 100%;
+    }
+    #video-part .text p:nth-child(2){
+        width: 107%;
+        margin: 25px -10px;
+    }
+    #video-part .img{
+        margin-top: 30px;
+    }
+    /* -------video part end------- */
+
+
+
+    /* -------counter part start------- */
+    #counter-part .overlay .count-box{
+        margin-top: 15px;
+    }
+    #counter-part .overlay .count-box .count-num{
+        font-size: 24px;
+    }
+    #counter-part .overlay .count-box h3{
+        font-size: 18px;
+    }
+    #counter-part .overlay .count-box h3::before{
+        width: 35%;
+        bottom: -5px;
+        left: 100px;
+    }
+    #counter-part .overlay .count-box:hover h3::before{
+        width: 20%;
+    }
+    /* -------counter part end------- */
+
+
+
+    /* -------footer slider part start------- */
+    #footer-slider{
+        padding: 70px 0;
+    }
+    /* -------footer slider part end------- */
+
+
+    /* -------footer part start------- */
+    #footer-part{
+        padding: 60px 0;
+    }
+    #footer-part .footer-item .img{
+        text-align: center;
+    }
+    #footer-part .footer-item p{
+        font-size: 14px;
+        line-height: 24px;
+        width: 100%;
+        margin-top: 0;
+    }
+    #footer-part .footer-item .title h3{
+        margin-top: 30px;
+    }
+    #footer-part .footer-item ul{
+        margin-top: 10px;
+    }
+    #footer-part .footer-item ul li a{
+        font-size: 14px;
+    }
+    #footer-part .footer-item .box h4{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    #footer-part .footer-item .box input{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    #footer-part .footer-item .box button{
+        font-size: 14px;
+        padding: 5px 20px;
+        top: 66%;
+    }
+    #footer-part .footer-item .icons{
+        margin-top: 30px;
+    }
+    #footer-part .footer-item .icons a{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+        margin: 0 7px;
+    }
+    /* -------footer part end------- */
+    .top-button{
+        display: none !important;
+    }
+
+
+    /* -------copy right part start------- */
+    #copy-part p{
+        font-size: 16px;
+    }
+    /* -------copy right part end------- */
+
+
+
+}
+
+@media (min-width:576px) and (max-width:767px){
+
+    .buttons a{
+        font-size: 16px;
+        padding: 7px 16px;
+        margin: 0 5px;
+    }
+
+
+    /* -------nav part start------- */
+
+    nav{
+        top: -8px;
+    }
+    nav .back{
+        border-radius: 0;
+    }
+    nav .logo img{
+        width: 75%;
+    }
+    nav button svg{
+        color: #fb414e;
+        outline: 0;
+    }
+    .navbar-toggler:focus{
+        box-shadow: 0 0 0rem;
+    }
+    nav ul li{
+        text-align: center;
+        margin-left: 0;
+    }
+    nav ul li a{
+        font-size: 30px;
+    }
+    nav button svg{
+        font-size: 30px !important;
+    }
+
+    /* -------nav part end------- */
+
+
+    /* -------banner part start------- */
+    #banner-part .banner .overlay h2{
+        font-size: 40px;
+        margin-top: 60px;
+    }
+    #banner-part .banner .overlay p{
+        font-size: 14px;
+        width: 100%;
+    }
+    #banner-part .nxt{
+        top: 57%;
+        right: 0;
+        font-size: 35px;
+    }
+    #banner-part .prv{
+        top: 57%;
+        left: 35px;
+        font-size: 35px;
+    }
+    /* -------banner part end------- */
+
+
+    /* -------service part start------- */
+    #service-part{
+        padding-bottom: 80px;
+    }
+    #service-part .top .item{
+        margin-left: 70px;
+        width: 75%;
+        margin-top: 25px;
+    }
+    #service-part .top .item .icon{
+        padding: 20px 0;
+    }
+    #service-part .top .item .text{
+        padding: 20px;
+    }
+    #service-part .top .item .text h4{
+        font-size: 18px;
+    }
+    #service-part .top .item .text p{
+        font-size: 16px;
+        width: 100%;
+    }
+    #service-part .bottom .title h2{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    #service-part .bottom .service-item .icon{
+        margin-top: 22px;
+    }
+    #service-part .bottom .service-item .text{
+        margin-left: 5px;
+    }
+    #service-part .bottom .service-item .text h4{
+        font-size: 18px;
+    }
+    #service-part .bottom .service-item .text p{
+        font-size: 14px;
+        width: 100%;
+    }
+    /* -------service part end------- */
+
+
+
+    /* -------about part start------- */
+    #about-part .title h3{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    #about-part .text p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-left: 12px;
+        width: 95%;
+    }
+    #about-part .text .buttons{
+        margin-left: 20px;
+    }
+    /* -------about part end------- */
+
+    /* -------slider part start------- */
+    #slider-part{
+        padding: 70px 0;
+    }
+    #slider-part::after{
+        top: 29%;
+        left: 17%;
+        width: 80px;
+        height: 80px;
+    }
+    #slider-part::before{
+        bottom: 18%;
+        right: 3%;
+        width: 80px;
+        height: 80px;
+    }
+    #slider-part .ball{
+        display: none;
+    }
+    #slider-part .main{
+        display: initial;
+    }
+    #slider-part .text-slider{
+        width: 100%;
+    }
+    #slider-part .text-slider .text h3{
+        font-size: 24px;
+    }
+    #slider-part .text-slider .text p{
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    #slider-part .img-slider{
+        width: 80%;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    #slider-part .img-slider .img img{
+        width: 100%;
+    }
+    #slider-part .details-slider{
+        width: 100%;
+    }
+    #slider-part .details-slider .details{
+        padding: 20px;
+    }
+    #slider-part .details-slider .details p{
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    /* -------slider part end------- */
+
+
+    /* -------work part start------- */
+    #work-part .title h2{
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    #work-part .mix-itup-button{
+        margin-top: -25px;
+    }
+    #work-part .mix-itup-button ul{
+        display: initial;
+        text-align: center;
+    }
+    #work-part .mix-itup-button ul li{
+        font-size: 16px;
+        margin-top: 6px;
+    }
+    #work-part .mix-itup-button ul .mixitup-control-active{
+        width: 28%;
+        margin-left: 185px;
+    }
+    #work-part .mixit-img .mix-item{
+        width: 48%;
+    }
+    #work-part .mixit-img .mix-item .img .overlay h4{
+        font-size: 22px;
+    }
+    /* -------work part end------- */
+
+
+    /* -------expert part start------- */
+    #expert-part .item .img .icons{
+        top: 10%;
+    }
+    /* -------expert part end------- */
+
+
+
+    /* -------contact-part start------- */
+    #contact-part{
+        padding: 90px 0;
+    }
+    #contact-part .title h2{
+        font-size: 28px;
+        margin-top: 5px;
+    }
+    #contact-part .plane{
+        display: block;
+    }
+    #contact-part .plane-bottom{
+        display: block;
+    }
+    #contact-part form input{
+        width: 90%;
+        font-size: 14px;
+        padding: 5px;
+        margin-top: 20px;
+    }
+    #contact-part form select{
+        width: 90%;
+        margin-top: 25px;
+    }
+    #contact-part form select option{
+        font-size: 14px;
+    }
+    #contact-part form button{
+        width: 40%;
+        font-size: 16px;
+        padding: 6px 15px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    /* -------contact-part end------- */
+
+
+    /* -------video part start------- */
+    #video-part{
+        padding: 70px 0;
+    }
+    #video-part .title h2{
+        font-size: 32px;
+        margin-top: 15px;
+    }
+    #video-part .text p{
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        width: 100%;
+    }
+    #video-part .text p:nth-child(2){
+        width: 107%;
+        margin: 25px -15px;
+    }
+    #video-part .img{
+        margin-top: 30px;
+    }
+    /* -------video part end------- */
+
+
+
+    /* -------counter part start------- */
+    #counter-part .overlay{
+        padding: 70px 0;
+    }
+    #counter-part .overlay .count-box{
+        margin-top: 25px;
+    }
+    /* -------counter part end------- */
+
+
+    /* -------footer part start------- */
+    #footer-part .footer-item .box button{
+        top: 74%;
+    }
+    /* -------footer part end------- */
+
+    .top-button{
+        font-size: 40px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+    
+
+    /* -------nav part start------- */
+    nav{
+        top: -8px;
+    }
+    nav .back{
+        border-radius: 0;
+    }
+    nav ul li{
+        margin-left: 15px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    aira-current{
+        display: none;
+    }
+    nav button{
+        display: none;
+    }
+    /* -------nav part end------- */
+
+
+    /* -------banner part start------- */
+    #banner-part .nxt{
+        top: 61%;
+        right: 8px;
+    }
+    #banner-part .prv{
+        top: 61%;
+        left: 42px;
+    }
+    /* -------banner part end------- */
+
+
+    /* -------service part start------- */
+    #service-part .top .item .text{
+        padding: 8px;
+    }
+    #service-part .top .item .text h4{
+        font-size: 16px;
+    }
+    #service-part .top .item .text p{
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+    }
+    #service-part .bottom .service-item{
+        display: initial;
+    }
+    #service-part .bottom .service-item .text{
+        margin-top: 30px;
+        margin-left: 0 !important;
+    }
+    #service-part .bottom .service-item .text h4{
+        font-size: 18px;
+    }
+    #service-part .bottom .service-item .text p{
+        font-size: 14px;
+        width: 100%;
+    }
+    #service-part .bottom .service-item .icon{
+        margin-left: 40px;
+    }
+    /* -------service part end------- */
+
+
+    /* -------about part start------- */
+    #about-part .img{
+        height: 100% !important;
+    }
+    #about-part .img img{
+        width: 100%;
+        height: 100% !important;
+    }
+    #about-part .text p{
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+        margin-top: 5px;
+    }
+    /* -------about part end------- */
+    
+    /* -------slider part start------- */
+    #slider-part .text-slider{
+        width: 40%;
+    }
+    #slider-part .text-slider .text{
+        margin-top: 0;
+    }
+    #slider-part .text-slider .text h3{
+        font-size: 27px;
+    }
+    #slider-part .text-slider .text p{
+        font-size: 14px;
+        width: 100%;
+    }
+    #slider-part::after{
+        width: 70px;
+        height: 70px;
+        top: 23%;
+        left: 64%;
+    }
+    #slider-part::before{
+        bottom: 24%;
+        right: 44%;
+        width: 70px;
+        height: 70px;
+    }
+    #slider-part .details-slider{
+        width: 28%;
+    }
+    /* -------slider part end------- */
+
+
+    /* -------works part start------- */
+    #work-part .title h2{
+        font-size: 38px;
+    }
+    /* -------works part end------- */
+
+    /* -------expert part start------- */
+    #expert-part .item .img .details h3{
+        font-size: 16px;
+    }
+    #expert-part .item .img .details p{
+        font-size: 12px;
+    }
+    #expert-part .item .img .icons{
+        top: 4%;
+        padding: 10px;
+    }
+    #expert-part .item .img .icons a{
+        margin-top: 5px;
+        padding: 5px;
+    }
+    #expert-part .item .img .icons a svg{
+        font-size: 12px;
+    }
+    #expert-part .item:hover .img .icons{
+        opacity: 1;
+        right: -6%;
+    }
+    /* -------expert part end------- */
+
+
+    /* -------contact part start------- */
+    #contact-part form input{
+        width: 80%;
+    }
+    #contact-part form select{
+        width: 40%;
+    }
+    #contact-part form button{
+        width: 35%;
+    }
+    /* -------contact part end------- */
+
+
+    /* -------video part start------- */
+    #video-part .text p{
+        font-size: 12px;
+        width: 100%;
+    }
+    #video-part .text p:nth-child(2){
+        margin: 8px 0;
+    }
+    #video-part .img{
+        height: 100%;
+    }
+    #video-part .img img{
+        height: 100%;
+    }
+    /* -------video part end------- */
+
+
+    /* -------counter part start------- */
+    #counter-part .overlay .count-box .count-num{
+        font-size: 28px;
+    }
+    #counter-part .overlay .count-box h3{
+        font-size: 18px;
+    }
+    #counter-part .overlay .count-box h3::before{
+        left: 40px;
+    }
+    /* -------counter part end------- */
+
+    /* -------footer slider part start------- */
+    #footer-slider .slider .kom2{
+        padding-bottom: 23px;
+    }
+    /* -------footer slider part end------- */
+
+
+    /* -------footer part start------- */
+    #footer-part .footer-item .box button{
+        padding: 5px 30px;
+        top: 74%;
+    }
+    /* -------footer part end------- */
+    
+}
+
+@media (min-width:992px) and (max-width:1199px){
+
+    /* -------service part start------- */
+    #service-part .top .item .text h4{
+        font-size: 16px;
+    }
+    #service-part .top .item .text p{
+        width: 100%;
+    }
+    #service-part .bottom .service-item .icon{
+        margin-top: 55px;
+    }
+    #service-part .bottom .service-item .text{
+        margin-left: 40px;
+    }
+    #service-part .bottom .service-item .text p{
+        width: 100%;
+    }
+    /* -------service part end------- */
+
+
+    /* -------about part start------- */
+    #about-part .text p{
+        width: 100%;
+        margin-top: 10px;
+    }
+    #about-part .img{
+        height: 100%;
+    }
+    #about-part .img img{
+        height: 100%;
+    }
+    /* -------about part end------- */
+
+
+    /* -------slider part start------- */
+    #slider-part .text-slider .text p{
+        width: 100%;
+    }
+    #slider-part::after{
+        top: 23%;
+        left: 52%;
+        width: 90px;
+        height: 90px;
+    }
+    #slider-part::before{
+        width: 90px;
+        height: 90px;
+        bottom: 5%;
+        right: 20%;
+    }
+    #slider-part .details-slider .details h4{
+        font-size: 16px;
+    }
+    /* -------slider part end------- */
+
+
+
+    /* -------expert part start------- */
+    #expert-part .item .img .icons{
+        top: 8%;
+        padding: 10px;
+    }
+    /* -------expert part end------- */
+
+
+    /* -------video part start------- */
+    #video-part .text p{
+        width: 100%;
+    }
+    #video-part .text p:nth-child(2){
+        margin: 30px 0;
+    }
+    #video-part .img{
+        height: 100%;
+    }
+    #video-part .img img{
+        height: 100%;
+    }
+    /* -------video part end------- */
+
+
+    /* -------counter part start------- */
+    #counter-part .overlay .count-box h3::before{
+        left: 56px;
+    }
+    /* -------counter part end------- */
+
+
+    /* -------footer slider part start------- */
+    #footer-slider .img img{
+        width: 80%;
+    }
+    #footer-slider .slider .kom2{
+        padding-bottom: 23px;
+    }
+    /* -------footer slider part end------- */
+
+
+
+    /* -------footer part start------- */
+    #footer-part .footer-item .title h3{
+        font-size: 18px;
+    }
+    /* -------footer part end------- */
+    
+}
